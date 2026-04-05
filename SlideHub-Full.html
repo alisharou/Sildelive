@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SlideHub - Free Presentation Slides</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:linear-gradient(135deg,#667eea,#764ba2);min-height:100vh;color:#333}
+header{background:rgba(255,255,255,0.95);padding:1rem;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 10px rgba(0,0,0,0.1)}
+.logo{font-size:1.5rem;font-weight:bold;color:#667eea}
+.btn{padding:0.5rem 1rem;border:none;border-radius:25px;cursor:pointer;font-weight:bold;background:#667eea;color:#fff;margin:0 0.3rem}
+.hero{text-align:center;padding:3rem 1rem;color:#fff}
+.hero h1{font-size:2rem;margin-bottom:1rem}
+.search-box{width:90%;max-width:500px;padding:1rem;border:none;border-radius:50px;margin:1rem auto;display:block}
+.categories{display:flex;justify-content:center;gap:0.5rem;margin:2rem 0;flex-wrap:wrap;padding:0 1rem}
+.category-btn{background:rgba(255,255,255,0.2);color:white;border:2px solid rgba(255,255,255,0.3);padding:0.5rem 1rem;border-radius:25px;cursor:pointer;font-size:0.9rem}
+.category-btn.active{background:white;color:#667eea}
+.slides-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;padding:2rem;max-width:1200px;margin:0 auto}
+.slide-card{background:white;border-radius:15px;overflow:hidden;box-shadow:0 5px 20px rgba(0,0,0,0.1)}
+.slide-thumb{height:150px;background:linear-gradient(45deg,#667eea,#764ba2);display:flex;align-items:center;justify-content:center;color:white;font-size:3rem;position:relative}
+.slide-info{padding:1rem}
+.slide-title{font-size:1.1rem;margin-bottom:0.5rem}
+.slide-desc{color:#666;font-size:0.9rem;margin-bottom:1rem}
+.slide-meta{display:flex;justify-content:space-between;align-items:center;color:#999;font-size:0.8rem;margin-bottom:1rem}
+.slide-actions{display:flex;gap:0.5rem}
+.slide-actions .btn{flex:1;padding:0.5rem;font-size:0.85rem}
+.btn-secondary{background:#f0f0f0;color:#555}
+footer{background:rgba(0,0,0,0.3);color:white;text-align:center;padding:2rem;margin-top:2rem}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">📊 SlideHub</div>
+</header>
+
+<section class="hero">
+<h1>Free Professional Presentation Slides</h1>
+<p>Download and upload free PPT templates!</p>
+</section>
+
+<div class="slides-grid">
+<div class="slide-card">
+<div class="slide-thumb">💼</div>
+<div class="slide-info">
+<h3 class="slide-title">Business Plan Template</h3>
+<p class="slide-desc">Professional business plan presentation.</p>
+</div>
+</div>
+</div>
+
+<footer>
+<p>&copy; 2024 SlideHub</p>
+</footer>
+
+</body>
+</html>
